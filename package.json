@@ -1,0 +1,22 @@
+{
+  "name": "eslint-plugin-no-umlauts",
+  "version": "0.0.0",
+  "description": "Disallowes german umlauts in funtion names, variable names and object properties",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Nils Neumann",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "eslint": "~1.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
