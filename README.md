@@ -1,4 +1,4 @@
-# eslint-plugin-no-umlauts
+# eslint-plugin-no-unsafe-chars
 
 > An eslint plugin that disallows german umlauts and other unsafe characters in function names, variable names and object property names.
 
