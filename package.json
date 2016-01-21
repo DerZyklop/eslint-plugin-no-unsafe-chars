@@ -1,13 +1,14 @@
 {
-  "name": "eslint-plugin-no-umlauts",
-  "version": "0.0.0",
-  "description": "Disallowes german umlauts in funtion names, variable names and object properties",
+  "name": "eslint-plugin-no-unsafe-chars",
+  "version": "1.0.0",
+  "description": "Disallowes german umlauts and other unsafe chars in funtion names, variable names and object property names.",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "Nils Neumann",
+  "author": "Nils Neumann <account-npm@der-zyklop.de>",
+  "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
@@ -18,5 +19,21 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "umlaut",
+    "umlauts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DerZyklop/eslint-plugin-no-unsafe-chars.git"
+  },
+  "homepage": "https://github.com/DerZyklop/eslint-plugin-no-unsafe-chars",
+  "bugs": {
+    "url": "https://github.com/DerZyklop/eslint-plugin-no-unsafe-chars/issues"
+  },
+
 }
