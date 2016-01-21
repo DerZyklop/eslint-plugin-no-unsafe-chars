@@ -20,18 +20,13 @@
 
 ## Configuration
 
-You can disallow german umlauts (ä, ö and ü) like this: 
-
-```json
-rules: {
-    "no-unsafe-chars/no-umlauts": [2]
-}
-```
+You can disallow german umlauts (ä, ö and ü) with the rule `no-umlauts`.
 
 You can disallow more chars with the custom rule. By default the disallowed custom char is the german `ß`. You can adjust the disallowed chars to your needs by setting the `disallow` option in your .eslintrc:
 
 ```json
 rules: {
+    "no-unsafe-chars/no-umlauts": [2],
     "no-unsafe-chars/custom": [2, {"disallow": 'ß', '_', '-', 'é', 'à', 'ï'}]
 }
 ```
@@ -40,7 +35,8 @@ As standard in eslint, set that first element to 1 to make this a warning instea
 
 ```json
 rules: {
-    "no-unsafe-chars/no-umlauts": [1]
+    "no-unsafe-chars/no-umlauts": [1],
+    "no-unsafe-chars/custom": [1]
 }
 ```
 
