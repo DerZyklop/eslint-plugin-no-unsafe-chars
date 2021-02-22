@@ -27,7 +27,7 @@ You can disallow more chars with the custom rule. By default the disallowed cust
 ```json
 rules: {
     "no-unsafe-chars/no-umlauts": [2],
-    "no-unsafe-chars/custom": [2, {"disallow": 'ß', '_', '-', 'é', 'à', 'ï'}]
+    "no-unsafe-chars/custom": [2, {"disallow": ['ß', '_', '-', 'é', 'à', 'ï']}]
 }
 ```
 
