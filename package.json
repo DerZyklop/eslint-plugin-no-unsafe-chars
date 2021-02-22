@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-unsafe-chars",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Disallowes german umlauts and other unsafe chars in funtion names, variable names and object property names.",
   "keywords": [
     "eslint",
