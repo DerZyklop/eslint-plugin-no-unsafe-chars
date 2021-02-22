@@ -7,7 +7,7 @@
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "Nils Neumann <account-npm@der-zyklop.de>",
+  "author": "@DerZyklop",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
